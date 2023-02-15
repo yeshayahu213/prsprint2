@@ -1,0 +1,73 @@
+
+/* .image{
+    height: 50px;
+    width: 50px;
+
+
+    
+} */
+.image img{
+    margin-inline: 10px;
+    height: 100%;
+    width: 100%;
+
+}
+.memeBody{
+   
+    display: none;
+ margin: 50px;
+ align-content: center;
+
+    
+
+}
+.editorcontainer{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+ flex-direction: column;
+ gap: 20px;
+    flex-grow:1 ;
+}
+
+
+.editorbuttons{
+    background-color:blue;
+    display: flex;
+   
+    align-content:space-between;
+    
+}
+.editorbuttons img{
+    height: 30p;
+    width: 30px;
+}
+.textbuttons{
+    background-color:yellow;
+display: grid;
+grid-template-columns:20% 20% 20% 20% 20% ;
+grid-template-rows:50% 50% ;
+
+}
+.textbuttons img{
+    margin: 5px;
+    height: 20px ;
+    width: 20px ;
+}
+.selectfont{
+    margin: 5px;
+    height: 30px ;
+    width: 90px ;
+}
+.sharedownload{
+
+    display: flex;
+
+    align-content:space-between;
+    flex-direction: row;
+}
+
+.sharedownload img{
+    height: 60px;
+    width: 60px;
+}

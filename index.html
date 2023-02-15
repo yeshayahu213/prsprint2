@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/basic.css" />
+    <link rel="stylesheet" href="css/mq.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>meme</title>
+  </head>
+  <body>
+    gridgallery
+    <div class="gridgallery gridgalleryhide" >
+      <div class="image image1">
+        <img src="meme-imgs (square)/1.jpg" onclick="onMoveToEditor();setQueryParams({imgid:'1'})"  alt="" />
+      </div>
+      <div class="image image2">
+        <img src="meme-imgs (square)/2.jpg" alt="" />
+      </div>
+
+      <div class="image image3">
+        <img src="meme-imgs (square)/3.jpg" alt="" />
+      </div>
+
+      <div class="image image4">
+        <img src="meme-imgs (square)/4.jpg" alt="" />
+      </div>
+
+      <div class="image image5">
+        <img src="meme-imgs (square)/5.jpg" alt="" />
+      </div>
+
+      <div class="image image6">
+        <img src="meme-imgs (square)/6.jpg" alt="" />
+      </div>
+
+      <div class="image image7">
+        <img src="meme-imgs (square)/7.jpg" alt="" />
+      </div>
+
+      <div class="image image8">
+        <img src="meme-imgs (square)/8.jpg" alt="" />
+      </div>
+
+      <div class="image image9">
+        <img src="meme-imgs (square)/9.jpg" alt="" />
+      </div>
+
+      <div class="image image10">
+        <img src="meme-imgs (square)/10.jpg" alt="" />
+      </div>
+
+      <div class="image image11">
+        <img src="meme-imgs (square)/11.jpg" alt="" />
+      </div>
+
+      <div class="image image12">
+        <img src="meme-imgs (square)/12.jpg" alt="" />
+      </div>
+
+      <div class="image image13">
+        <img src="meme-imgs (square)/13.jpg" alt="" />
+      </div>
+
+      <div class="image image14">
+        <img src="meme-imgs (square)/14.jpg" alt="" />
+      </div>
+
+      <div class="image image15">
+        <img src="meme-imgs (square)/15.jpg" alt="" />
+      </div>
+
+      <div class="image image16">
+        <img src="meme-imgs (square)/16.jpg" alt="" />
+      </div>
+
+      <div class="image image17">
+        <img src="meme-imgs (square)/17.jpg" alt="" />
+      </div>
+
+      <div class="image image18">
+        <img src="meme-imgs (square)/18.jpg" alt="" />
+      </div>
+    </div>
+
+
+
+  </body>
+  <div class="memeBody">
+   
+        
+      
+    <div class="memeedit imagememe canvas-container">
+        <canvas id="mycanvas" style="outline: 1px solid green" ></canvas>  
+
+        
+        <!-- width="200" height="200" -->
+        
+    </div>
+    <div class="editorcontainer  flex">
+        <div class="texteditor">
+            <input type="text" id="username" name="username">
+        </div>
+        <div class="editorbuttons flex">
+            <img src="icons/plus.png" alt="">
+            <img src="icons/switch.png" alt="">
+            <img src="icons/erase.png" onclick="clearMeme()" alt="">
+            
+        </div>
+        <div class="textbuttons">
+            <img src="icons/growtxt.png" alt="">
+            <img src="icons/shrinktxt.png" alt="">
+            <img src="icons/tolefttxt.png" alt="">
+            <img src="icons/right.png" alt="">
+            <img src="icons/centraltxt.png" alt="">
+            <img src="icons/tolefttxt.png" alt="">
+            <select name="fonts" id="fonts" class="selectfont">
+                <option value="impact">impact</option>
+                <option value="ariel">ariel</option>
+                
+              </select>
+               
+        </div> 
+        <div class="sharedownload flex">
+            <img src="icons/download.png" alt="">
+            <img src="icons/share.png" alt="">
+
+               
+        </div>
+    </div>
+    
+
+       
+    </div>
+
+    
+</div>
+<script src="js/canvas.js" defer></script>
+  <script src="js/main.js"></script>
+  <script src="js/memecontroler.js"></script>
+  <script src="js/util.js"></script>
+</html>
